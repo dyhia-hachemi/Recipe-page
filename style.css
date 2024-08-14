@@ -12,6 +12,7 @@
 }
 body{
     background-color:var(--rose50);
+    margin-bottom: 100px;
 }
 #container{
     background-color: var(--white);
