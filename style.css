@@ -114,6 +114,30 @@ ol li::marker {
     font-family:'Outfit';
 }
 
+/* Nutrition part*/
+table{
+    font-family: "Outfit" , "Young Serif" ;
+    width:100%;/*la largeur du tableau par rapport à l'ecran*/
+    border-collapse: collapse;/*fusionner les bordures doubles en une seule */
+}
+#serving{
+    font-weight: 400;
+    color: var(--stone600);
+    padding:  10px 0px 10px 30px;
+    width:50%;
+}
+#value{
+    font-weight: 700;
+    color: var(--brown800);
+}
+tr {
+    border-bottom: 1px solid var(--stone100); ; /* Ligne de séparation entre les lignes du tableau */
+}
+
+tr:last-child {
+    border-bottom: none; /* Retire la ligne de séparation sous la dernière ligne */
+}
+
 
 
 
